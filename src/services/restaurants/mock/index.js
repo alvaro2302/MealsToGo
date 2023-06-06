@@ -1,4 +1,7 @@
-
+import antewerp from "./antwerp.json";
+import toronto from "./toronto.json";
+import san_francisco from "./san_francisco.json";
+import chicago from "./chicago.json";
 
 export const mocks = {
     "51.219448,4.402464": antewerp,
