@@ -9,7 +9,6 @@
     "web": "expo start --web",
     "lint": "eslint . --ext .js"
   },
-  "type": "module",
   "dependencies": {
     "@expo-google-fonts/lato": "^0.2.2",
     "@expo-google-fonts/oswald": "^0.2.2",
