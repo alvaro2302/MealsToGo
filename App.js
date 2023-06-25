@@ -13,7 +13,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { SafeArea } from "./src/components/utility/safe-area.component";
 import ExpoStatusBar from "expo-status-bar/build/ExpoStatusBar";
 import Ionicons from "@expo/vector-icons/Ionicons";
-
+import { restaurantsRequest } from "./src/services/restaurants/restaurants.service";
 const Tab = createBottomTabNavigator();
 
 const TAB_ICON = {
