@@ -15,11 +15,11 @@ import {
   SectionEnd,
 } from "./restaurant-info-card.styles";
 
-export const RestaurantInfoCard = ({ restaurant = {} }) => {
+export const RestaurantInfoCard = ({ restaurant = {}}) => {
   const {
     name = "my restaurant",
     icon = "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-    images = ["https://picsum.photos/700"],
+    photos = ["https://picsum.photos/700"],
     address = "100 some random street",
     rating = 4,
     isOpenNow = true,
@@ -28,8 +28,8 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
 
   const ratingArray = Array.from(new Array(Math.floor(rating)));
   return (
-    <RestaurantCard elevation={5}>
-      <RestaurantCover key={name} source={{ uri: images[0] }} />
+    <RestaurantCard elevation={5} >
+      <RestaurantCover key={name} source={{ uri: photos[0] }} />
       <Info>
         <Text variant="label">{name}</Text>
         <Section>
