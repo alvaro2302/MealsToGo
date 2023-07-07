@@ -1,5 +1,5 @@
 export const locations = {
-    antwerp: {
+    "antwerp": {
       results: [
         {
           geometry: {
@@ -35,7 +35,7 @@ export const locations = {
       ],
       status: "OK",
     },
-    chicago: {
+    "chicago": {
       results: [
         {
           geometry: {
@@ -57,7 +57,7 @@ export const locations = {
         },
       ],
     },
-    toronto: {
+    "toronto": {
       results: [
         {
           geometry: {
